@@ -1,0 +1,37 @@
+
+
+body {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url("background.jpg") no-repeat center/cover;
+}
+
+.container {
+    width: 700px;
+    height: 700px;
+}
+
+.card {
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 25px;
+    border-color: black;
+    background-color: tan;
+}
+.heading {
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.input-group-addon {
+    color: green;
+}
+
+h5 {
+    font-size: 25px;
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+}
